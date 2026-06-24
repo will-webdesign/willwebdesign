@@ -358,13 +358,13 @@ body {
   border-right: 1px solid #bbb;
   padding: 8px;
 }
-.bef-site .bef-sidebar p { font-size: .6rem; font-weight: bold; color: #333; margin-bottom: 5px; }
-.bef-site .bef-sidebar a { display: block; color: #003366; text-decoration: underline; font-size: .62rem; margin-bottom: 3px; }
+.bef-site .bef-sidebar p { font-size: .6rem; font-weight: bold; color: #1a1a1a; margin-bottom: 5px; }
+.bef-site .bef-sidebar a { display: block; color: #1a3d66; text-decoration: underline; font-size: .62rem; margin-bottom: 3px; }
 .bef-site .bef-main { flex: 1; padding: 10px 12px; }
-.bef-site .bef-main h2 { font-size: .78rem; color: #003366; border-bottom: 2px solid #003366; padding-bottom: 3px; margin-bottom: 6px; }
-.bef-site .bef-main p  { font-size: .62rem; line-height: 1.6; margin-bottom: 5px; }
+.bef-site .bef-main h2 { font-size: .78rem; color: #0d1f3d; border-bottom: 2px solid #0d1f3d; padding-bottom: 3px; margin-bottom: 6px; }
+.bef-site .bef-main p  { font-size: .62rem; line-height: 1.6; margin-bottom: 5px; color: #1a1a1a; }
 .bef-site .bef-footer {
-  background: #003366; color: #99aacc;
+  background: #003366; color: #cce5ff;
   text-align: center; padding: 6px;
   font-size: .58rem;
 }
