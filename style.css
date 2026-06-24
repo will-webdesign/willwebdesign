@@ -530,7 +530,12 @@ body {
   background: var(--bg-card);
   transition: border-color .2s;
 }
-.faq-item.open, .faq-item:hover { border-color: var(--bdr-hover); }
+
+.faq-item.open,
+.faq-item:hover {
+  border-color: var(--bdr-hover);
+}
+
 .faq-q {
   width: 100%;
   padding: 1.2rem 1.5rem;
@@ -540,26 +545,45 @@ body {
   cursor: pointer;
   font-weight: 600;
   font-size: .95rem;
-  color: var(--text);
+  color: #ffffff;
   text-align: left;
   background: none;
   border: none;
   font-family: 'Plus Jakarta Sans', sans-serif;
   transition: color .2s;
 }
-.faq-q:hover { color: var(--blue-lt); }
-.faq-icon { color: var(--blue); flex-shrink: 0; transition: transform .3s; }
-.faq-item.open .faq-icon { transform: rotate(45deg); }
+
+.faq-q:hover {
+  color: #38bdf8;
+}
+
+.faq-icon {
+  color: #38bdf8;
+  flex-shrink: 0;
+  transition: transform .3s;
+}
+
+.faq-item.open .faq-icon {
+  transform: rotate(45deg);
+}
+
 .faq-a {
   overflow: hidden;
   max-height: 0;
   transition: max-height .4s ease;
-  color: var(--muted);
+  color: #ffffff;
   font-size: .9rem;
   line-height: 1.75;
 }
-.faq-item.open .faq-a { max-height: 300px; }
-.faq-a p { padding: 0 1.5rem 1.25rem; }
+
+.faq-item.open .faq-a {
+  max-height: 300px;
+}
+
+.faq-a p {
+  padding: 0 1.5rem 1.25rem;
+  color: #ffffff;
+}
 
 /* === FORMS === */
 .form-group { margin-bottom: 1.1rem; }
