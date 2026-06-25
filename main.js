@@ -273,7 +273,7 @@ function initQuoteModal() {
     const body    = encodeURIComponent(
       `Name: ${d.name}\nBusiness: ${d.business}\nEmail: ${d.email}\nPhone: ${d.phone}\nService: ${d.service}\nMessage: ${d.message || ''}`
     );
-    window.location.href = `mailto:williamhm9@outlook.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:hello@willwebdesign.co.uk?subject=${subject}&body=${body}`;
     closeM();
   });
 }
@@ -318,7 +318,7 @@ function initForms() {
     btn.textContent = '✓ Message Sent! Redirecting…';
     btn.disabled = true;
     btn.style.background = 'linear-gradient(135deg,#22c55e,#16a34a)';
-    setTimeout(() => { window.location.href = `mailto:williamhm9@outlook.com?subject=${subject}&body=${body}`; }, 800);
+    setTimeout(() => { window.location.href = `mailto:hello@willwebdesign.co.uk?subject=${subject}&body=${body}`; }, 800);
   });
 
   /* Audit form */
@@ -332,7 +332,7 @@ function initForms() {
     btn.textContent = '✓ Audit Requested!';
     btn.disabled = true;
     btn.style.background = 'linear-gradient(135deg,#22c55e,#16a34a)';
-    setTimeout(() => { window.location.href = `mailto:williamhm9@outlook.com?subject=${subject}&body=${body}`; }, 800);
+    setTimeout(() => { window.location.href = `mailto:hello@willwebdesign.co.uk?subject=${subject}&body=${body}`; }, 800);
   });
 }
 
