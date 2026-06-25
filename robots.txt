@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://willwebdesign.co.uk/sitemap.xml

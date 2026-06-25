@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Portfolio | Will Web Design | Websites for UK Tradespeople</title>
+  <meta name="description" content="See example websites built by Will Web Design for plumbers, electricians, roofers, gardeners and local UK businesses. Custom designs that generate real enquiries.">
+  <meta name="author" content="Will Web Design">
+  <link rel="canonical" href="https://willwebdesign.co.uk/portfolio.html">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://willwebdesign.co.uk/portfolio.html">
+  <meta property="og:title"       content="Portfolio | Will Web Design | Websites for UK Tradespeople">
+  <meta property="og:description" content="Example websites built for plumbers, electricians, roofers and local businesses. Custom designs that generate real enquiries.">
+  <meta property="og:site_name"   content="Will Web Design">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { 'wwd': '#050810', 'wwd-card': '#0d1117' },
+          fontFamily: { display: ['"Plus Jakarta Sans"', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-[#050810]">
+
+  <div class="announcement-bar">
+    <i class="fa-solid fa-bolt"></i>&nbsp;Starting from <strong>£199</strong> &nbsp;|&nbsp; Free mockup available &nbsp;|&nbsp;
+    <a href="https://wa.me/447514499777" class="underline" target="_blank" rel="noopener">WhatsApp us now →</a>
+  </div>
+
+  <nav class="navbar" id="navbar" style="top: 40px;">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-2 shrink-0">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-400 to-blue-600 flex items-center justify-center shadow-lg shadow-sky-500/30">
+            <span class="text-white font-black text-base display-font">W</span>
+          </div>
+          <span class="display-font font-bold text-white text-lg leading-tight">Will Web <span class="text-sky-400">Design</span></span>
+        </a>
+        <div class="hidden md:flex items-center gap-7">
+          <a href="index.html"     class="text-slate-300 hover:text-white text-sm font-medium transition-colors">Home</a>
+          <a href="portfolio.html" class="text-sky-400 text-sm font-medium">Portfolio</a>
+          <a href="pricing.html"   class="text-slate-300 hover:text-white text-sm font-medium transition-colors">Pricing</a>
+          <a href="about.html"     class="text-slate-300 hover:text-white text-sm font-medium transition-colors">About</a>
+          <a href="contact.html"   class="text-slate-300 hover:text-white text-sm font-medium transition-colors">Contact</a>
+          <button class="btn-primary py-2.5 px-5 text-sm" data-quote><i class="fa-solid fa-eye"></i> Free Mockup</button>
+        </div>
+        <button id="menu-toggle" class="md:hidden text-slate-300 hover:text-white p-2" aria-label="Open menu">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <button id="menu-close" class="absolute top-5 right-5 text-slate-400 hover:text-white" aria-label="Close menu">
+      <i class="fa-solid fa-xmark text-2xl"></i>
+    </button>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <button class="btn-primary mt-2" data-quote><i class="fa-solid fa-eye"></i> Free Mockup</button>
+    <a href="https://wa.me/447514499777" class="btn-whatsapp" target="_blank" rel="noopener">
+      <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp Now
+    </a>
+  </div>
+
+  <!-- HERO -->
+  <section class="page-offset-sm py-16 relative grid-bg" id="hero">
+    <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 text-center">
+      <div class="reveal mb-4">
+        <span class="section-label"><i class="fa-solid fa-briefcase text-xs"></i> Our Work</span>
+      </div>
+      <h1 class="reveal reveal-d1 display-font text-4xl sm:text-5xl font-black text-white mt-4 mb-5 leading-tight">
+        Websites Built for<br><span class="gradient-text">UK Tradespeople</span>
+      </h1>
+      <p class="reveal reveal-d2 text-slate-400 text-lg max-w-2xl mx-auto mb-8">
+        Every design is custom-built for your trade, your brand and your customers. These are example concepts. Your site will be built specifically for you.
+      </p>
+      <div class="reveal reveal-d3 flex flex-wrap justify-center gap-4">
+        <button class="btn-primary" data-quote>
+          <i class="fa-solid fa-eye"></i> Get My Free Mockup
+        </button>
+        <a href="https://wa.me/447514499777" class="btn-whatsapp" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp text-xl"></i> WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="glow-divider">
+
+  <!-- PORTFOLIO GRID -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+
+      <div class="text-center mb-12 reveal">
+        <p class="text-slate-400 text-sm bg-sky-500/10 border border-sky-500/20 rounded-full px-5 py-2 inline-block">
+          <i class="fa-solid fa-circle-info text-sky-400 mr-2"></i>
+          These are example designs. Your website will be custom-built for your specific trade and business.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 mb-16">
+
+        <!-- Roofer -->
+        <div class="reveal reveal-d1">
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <div class="b-dot r"></div><div class="b-dot y"></div><div class="b-dot g"></div>
+              <div class="b-url"><span>smithroofing.co.uk</span></div>
+            </div>
+            <div class="pm-roof p-8">
+              <div class="text-xs font-bold text-red-400 mb-3 tracking-widest uppercase">Smith Roofing Ltd</div>
+              <div class="text-white text-2xl font-black leading-tight mb-3">Expert Roofers<br><span style="color:#ef4444">You Can Trust</span></div>
+              <p class="text-gray-400 text-sm mb-5 leading-relaxed">New roofs, repairs &amp; emergency call-outs across the region. Fully insured with 10-year guarantee. Free quotes available.</p>
+              <div class="flex gap-3 mb-6">
+                <span class="text-sm bg-red-600 text-white px-4 py-2 rounded font-bold">Get a Free Quote</span>
+                <span class="text-sm border border-red-600/40 text-red-300 px-4 py-2 rounded">View Our Work</span>
+              </div>
+              <div class="grid grid-cols-3 gap-3">
+                <div class="bg-red-900/30 border border-red-700/20 rounded-lg p-3 text-center">
+                  <div class="text-red-400 text-lg mb-1">🏠</div>
+                  <div class="text-white text-xs font-bold">New Roofs</div>
+                  <div class="text-gray-500 text-xs">All styles</div>
+                </div>
+                <div class="bg-red-900/30 border border-red-700/20 rounded-lg p-3 text-center">
+                  <div class="text-red-400 text-lg mb-1">🔧</div>
+                  <div class="text-white text-xs font-bold">Repairs</div>
+                  <div class="text-gray-500 text-xs">Fast response</div>
+                </div>
+                <div class="bg-red-900/30 border border-red-700/20 rounded-lg p-3 text-center">
+                  <div class="text-red-400 text-lg mb-1">⚡</div>
+                  <div class="text-white text-xs font-bold">Emergency</div>
+                  <div class="text-gray-500 text-xs">24/7 call-out</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 px-1">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h2 class="display-font font-bold text-white text-lg">Roofing Company</h2>
+                <p class="text-slate-400 text-sm mt-1">Lead-generation landing page designed to capture quotes. Includes emergency call-out section, testimonials area, and direct call/WhatsApp CTAs.</p>
+              </div>
+              <span class="badge-blue text-xs shrink-0 mt-1">Starter</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mt-3">
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Lead Gen</span>
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Mobile First</span>
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">SEO Optimised</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plumber -->
+        <div class="reveal reveal-d2">
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <div class="b-dot r"></div><div class="b-dot y"></div><div class="b-dot g"></div>
+              <div class="b-url"><span>premiumblueplumbing.co.uk</span></div>
+            </div>
+            <div class="pm-plumb p-8">
+              <div class="text-xs font-bold text-sky-400 mb-3 tracking-widest uppercase">Premium Blue Plumbing</div>
+              <div class="text-white text-2xl font-black leading-tight mb-3">Boilers, Bathrooms<br><span style="color:#38bdf8">&amp; Emergency Plumbing</span></div>
+              <p class="text-gray-400 text-sm mb-5 leading-relaxed">Gas Safe registered. Fast response times. No call-out fee for boiler emergencies in the local area.</p>
+              <div class="flex gap-3 mb-6">
+                <span class="text-sm bg-sky-600 text-white px-4 py-2 rounded font-bold">📞 Call Now</span>
+                <span class="text-sm bg-green-600 text-white px-4 py-2 rounded font-bold">WhatsApp</span>
+              </div>
+              <div class="flex gap-4">
+                <div class="flex-1 bg-sky-900/30 border border-sky-700/20 rounded-lg p-3">
+                  <div class="text-sky-400 font-black">Gas Safe</div>
+                  <div class="text-gray-400 text-xs">Registered engineer</div>
+                </div>
+                <div class="flex-1 bg-sky-900/30 border border-sky-700/20 rounded-lg p-3">
+                  <div class="text-sky-400 font-black">24/7</div>
+                  <div class="text-gray-400 text-xs">Emergency cover</div>
+                </div>
+                <div class="flex-1 bg-sky-900/30 border border-sky-700/20 rounded-lg p-3">
+                  <div class="text-sky-400 font-black">Free</div>
+                  <div class="text-gray-400 text-xs">Quotes given</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 px-1">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h2 class="display-font font-bold text-white text-lg">Plumbing Business</h2>
+                <p class="text-slate-400 text-sm mt-1">Multi-page business website with dedicated service pages, a contact form, and Gas Safe credentials prominently displayed to build immediate trust.</p>
+              </div>
+              <span class="badge-blue text-xs shrink-0 mt-1">Business</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mt-3">
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Multi-Page</span>
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Trust Signals</span>
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Local SEO</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Electrician -->
+        <div class="reveal reveal-d3">
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <div class="b-dot r"></div><div class="b-dot y"></div><div class="b-dot g"></div>
+              <div class="b-url"><span>voltelectrical.co.uk</span></div>
+            </div>
+            <div class="pm-elec p-8">
+              <div class="text-xs font-bold text-yellow-400 mb-3 tracking-widest uppercase">Volt Electrical Services</div>
+              <div class="text-white text-2xl font-black leading-tight mb-3">Your Local Electrician<br><span style="color:#facc15">NICEIC Approved</span></div>
+              <p class="text-gray-400 text-sm mb-5 leading-relaxed">Consumer units, EV chargers, full rewires &amp; PAT testing. Fully qualified &amp; insured. Free quotes.</p>
+              <div class="flex gap-3 mb-6">
+                <span class="text-sm bg-yellow-500 text-black px-4 py-2 rounded font-bold">Get a Quote</span>
+                <span class="text-sm border border-yellow-600/40 text-yellow-300 px-4 py-2 rounded">Our Services</span>
+              </div>
+              <div class="grid grid-cols-3 gap-3">
+                <div class="bg-yellow-900/20 border border-yellow-700/20 rounded-lg p-3 text-center">
+                  <div class="text-yellow-400 text-lg mb-1">⚡</div>
+                  <div class="text-white text-xs font-bold">Rewires</div>
+                </div>
+                <div class="bg-yellow-900/20 border border-yellow-700/20 rounded-lg p-3 text-center">
+                  <div class="text-yellow-400 text-lg mb-1">🚗</div>
+                  <div class="text-white text-xs font-bold">EV Chargers</div>
+                </div>
+                <div class="bg-yellow-900/20 border border-yellow-700/20 rounded-lg p-3 text-center">
+                  <div class="text-yellow-400 text-lg mb-1">🔌</div>
+                  <div class="text-white text-xs font-bold">PAT Testing</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 px-1">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h2 class="display-font font-bold text-white text-lg">Electrical Contractor</h2>
+                <p class="text-slate-400 text-sm mt-1">Professional multi-page site with NICEIC credentials front and centre, service pages for each trade, and a quote request form built to convert visitors.</p>
+              </div>
+              <span class="badge-blue text-xs shrink-0 mt-1">Business</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mt-3">
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Multi-Page</span>
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Credentials</span>
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Quote Form</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Window Cleaner -->
+        <div class="reveal reveal-d4">
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <div class="b-dot r"></div><div class="b-dot y"></div><div class="b-dot g"></div>
+              <div class="b-url"><span>clearviewwindows.co.uk</span></div>
+            </div>
+            <div class="pm-wind p-8">
+              <div class="text-xs font-bold text-cyan-400 mb-3 tracking-widest uppercase">ClearView Window Cleaning</div>
+              <div class="text-white text-2xl font-black leading-tight mb-3">Sparkling Windows.<br><span style="color:#22d3ee">Reliable Service.</span></div>
+              <p class="text-gray-400 text-sm mb-5 leading-relaxed">Residential &amp; commercial. Fed-pole &amp; traditional. Monthly contracts and one-off cleans available.</p>
+              <div class="flex gap-3 mb-6">
+                <span class="text-sm bg-cyan-600 text-white px-4 py-2 rounded font-bold">Book Online</span>
+                <span class="text-sm border border-cyan-600/40 text-cyan-300 px-4 py-2 rounded">Get a Price</span>
+              </div>
+              <div class="flex gap-4">
+                <div class="flex-1 bg-cyan-900/20 border border-cyan-700/20 rounded-lg p-3 text-center">
+                  <div class="text-cyan-400 font-black">Monthly</div>
+                  <div class="text-gray-400 text-xs">Contracts</div>
+                </div>
+                <div class="flex-1 bg-cyan-900/20 border border-cyan-700/20 rounded-lg p-3 text-center">
+                  <div class="text-cyan-400 font-black">Same Day</div>
+                  <div class="text-gray-400 text-xs">Quotes</div>
+                </div>
+                <div class="flex-1 bg-cyan-900/20 border border-cyan-700/20 rounded-lg p-3 text-center">
+                  <div class="text-cyan-400 font-black">Insured</div>
+                  <div class="text-gray-400 text-xs">&amp; Reliable</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 px-1">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <h2 class="display-font font-bold text-white text-lg">Window Cleaning Business</h2>
+                <p class="text-slate-400 text-sm mt-1">Booking-focused landing page designed to convert visitors into regular monthly customers. Includes pricing table and area coverage map.</p>
+              </div>
+              <span class="badge-blue text-xs shrink-0 mt-1">Starter</span>
+            </div>
+            <div class="flex flex-wrap gap-2 mt-3">
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Booking Focus</span>
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Pricing Table</span>
+              <span class="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">Local SEO</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- More trades section -->
+      <div class="reveal bg-[#0d1117] rounded-2xl border border-sky-900/25 p-8 sm:p-10 text-center">
+        <h2 class="display-font text-2xl font-bold text-white mb-3">We build for all trades</h2>
+        <p class="text-slate-400 max-w-xl mx-auto mb-8">From gardeners and landscapers to builders and property maintenance companies. If you're a local tradesperson or small business, we can build a site that gets you more work.</p>
+        <div class="flex flex-wrap justify-center gap-3 mb-8">
+          <span class="trust-badge"><i class="fa-solid fa-wrench"></i> Plumbers</span>
+          <span class="trust-badge"><i class="fa-solid fa-bolt"></i> Electricians</span>
+          <span class="trust-badge"><i class="fa-solid fa-house"></i> Roofers</span>
+          <span class="trust-badge"><i class="fa-solid fa-seedling"></i> Gardeners</span>
+          <span class="trust-badge"><i class="fa-solid fa-droplet"></i> Window Cleaners</span>
+          <span class="trust-badge"><i class="fa-solid fa-hard-hat"></i> Builders</span>
+          <span class="trust-badge"><i class="fa-solid fa-tree"></i> Landscapers</span>
+          <span class="trust-badge"><i class="fa-solid fa-screwdriver-wrench"></i> Property Maintenance</span>
+        </div>
+        <button class="btn-primary text-base" data-quote>
+          <i class="fa-solid fa-eye"></i> Get My Free Mockup
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <hr class="glow-divider">
+
+  <!-- FOOTER CTA -->
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-5 sm:px-8 text-center reveal">
+      <span class="section-label mx-auto mb-5"><i class="fa-solid fa-palette text-xs"></i> Your Turn</span>
+      <h2 class="display-font text-3xl sm:text-4xl font-bold text-white mt-4 mb-4">Want to see what your website could look like?</h2>
+      <p class="text-slate-300 max-w-lg mx-auto mb-8">Request a free mockup. We'll design a custom homepage concept for your business within 24 hours. No obligation, no cost.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="https://wa.me/447514499777?text=Hi%20Will!%20I%27d%20love%20a%20free%20website%20mockup%20for%20my%20business." class="btn-whatsapp text-base" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp text-xl"></i> Request Free Mockup on WhatsApp
+        </a>
+        <button class="btn-secondary text-base" data-quote>Or Fill In a Quote Form</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#050810] border-t border-sky-900/20 py-10">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <a href="index.html" class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-xl bg-gradient-to-br from-sky-400 to-blue-600 flex items-center justify-center">
+            <span class="text-white font-black text-sm display-font">W</span>
+          </div>
+          <span class="display-font font-bold text-white">Will Web <span class="text-sky-400">Design</span></span>
+        </a>
+        <div class="flex flex-wrap gap-5 text-sm">
+          <a href="index.html"     class="text-slate-400 hover:text-sky-400 transition-colors">Home</a>
+          <a href="portfolio.html" class="text-slate-400 hover:text-sky-400 transition-colors">Portfolio</a>
+          <a href="pricing.html"   class="text-slate-400 hover:text-sky-400 transition-colors">Pricing</a>
+          <a href="about.html"     class="text-slate-400 hover:text-sky-400 transition-colors">About</a>
+          <a href="contact.html"   class="text-slate-400 hover:text-sky-400 transition-colors">Contact</a>
+        </div>
+        <p class="text-slate-500 text-xs">© 2025 Will Web Design</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/447514499777" class="float-wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp text-2xl"></i>
+  </a>
+  <button class="float-quote" data-quote aria-label="Get a quote">
+    <i class="fa-solid fa-file-invoice mr-2"></i> Get Quote
+  </button>
+
+  <!-- QUOTE MODAL -->
+  <div class="modal-overlay" id="quote-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h3 id="modal-title" class="display-font text-xl font-bold text-white">Get a Free Mockup</h3>
+          <p class="text-slate-400 text-sm">We'll get back to you within a few hours.</p>
+        </div>
+        <button data-close-modal class="text-slate-500 hover:text-white p-1 transition-colors" aria-label="Close">
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
+      </div>
+      <form id="quote-form">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+          <div class="form-group">
+            <label class="form-label" for="qf-name">Your Name *</label>
+            <input type="text" id="qf-name" name="name" class="form-input" placeholder="John Smith" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="qf-business">Business Name *</label>
+            <input type="text" id="qf-business" name="business" class="form-input" placeholder="Smith Plumbing Ltd" required autocomplete="organization">
+          </div>
+        </div>
+        <div class="form-group mb-4">
+          <label class="form-label" for="qf-email">Email Address *</label>
+          <input type="email" id="qf-email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+        </div>
+        <div class="form-group mb-4">
+          <label class="form-label" for="qf-phone">Phone Number</label>
+          <input type="tel" id="qf-phone" name="phone" class="form-input" placeholder="07xxx xxxxxx" autocomplete="tel">
+        </div>
+        <div class="form-group mb-4">
+          <label class="form-label" for="qf-service">Which service are you interested in?</label>
+          <select id="qf-service" name="service" class="form-input">
+            <option value="" disabled selected>Select a service…</option>
+            <option>Starter Website (£199)</option>
+            <option>Business Website (£349)</option>
+            <option>Premium Website (£599)</option>
+            <option>Website Redesign</option>
+            <option>Not sure yet - advise me</option>
+          </select>
+        </div>
+        <div class="form-group mb-6">
+          <label class="form-label" for="qf-message">Tell us about your business</label>
+          <textarea id="qf-message" name="message" class="form-input" placeholder="What do you do? Any specific requirements?" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn-primary w-full justify-center text-base py-4">
+          <i class="fa-solid fa-paper-plane"></i> Send My Quote Request
+        </button>
+        <p class="text-slate-400 text-xs text-center mt-3">Or message us directly: <a href="https://wa.me/447514499777" class="text-green-400 hover:text-green-300" target="_blank" rel="noopener">WhatsApp us now →</a></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

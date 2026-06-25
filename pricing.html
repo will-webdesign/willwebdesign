@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Pricing | Will Web Design | Websites from £199</title>
+  <meta name="description" content="Transparent website pricing for UK tradespeople and local businesses. Starter from £199, Business from £349, Premium from £599. No hidden costs.">
+  <meta name="author" content="Will Web Design">
+  <link rel="canonical" href="https://willwebdesign.co.uk/pricing.html">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://willwebdesign.co.uk/pricing.html">
+  <meta property="og:title"       content="Pricing | Will Web Design | Websites from £199">
+  <meta property="og:description" content="Transparent website pricing for UK tradespeople. No hidden costs, no nasty surprises.">
+  <meta property="og:site_name"   content="Will Web Design">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PriceSpecification",
+    "name": "Will Web Design Pricing",
+    "description": "Website design packages for UK tradespeople starting from £199"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { 'wwd': '#050810', 'wwd-card': '#0d1117' },
+          fontFamily: { display: ['"Plus Jakarta Sans"', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-[#050810]">
+
+  <div class="announcement-bar">
+    <i class="fa-solid fa-bolt"></i>&nbsp;Starting from <strong>£199</strong> &nbsp;|&nbsp; Free mockup available &nbsp;|&nbsp;
+    <a href="https://wa.me/447514499777" class="underline" target="_blank" rel="noopener">WhatsApp us now →</a>
+  </div>
+
+  <nav class="navbar" id="navbar" style="top: 40px;">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-2 shrink-0">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-sky-400 to-blue-600 flex items-center justify-center shadow-lg shadow-sky-500/30">
+            <span class="text-white font-black text-base display-font">W</span>
+          </div>
+          <span class="display-font font-bold text-white text-lg leading-tight">Will Web <span class="text-sky-400">Design</span></span>
+        </a>
+        <div class="hidden md:flex items-center gap-7">
+          <a href="index.html"     class="text-slate-300 hover:text-white text-sm font-medium transition-colors">Home</a>
+          <a href="portfolio.html" class="text-slate-300 hover:text-white text-sm font-medium transition-colors">Portfolio</a>
+          <a href="pricing.html"   class="text-sky-400 text-sm font-medium">Pricing</a>
+          <a href="about.html"     class="text-slate-300 hover:text-white text-sm font-medium transition-colors">About</a>
+          <a href="contact.html"   class="text-slate-300 hover:text-white text-sm font-medium transition-colors">Contact</a>
+          <button class="btn-primary py-2.5 px-5 text-sm" data-quote><i class="fa-solid fa-eye"></i> Free Mockup</button>
+        </div>
+        <button id="menu-toggle" class="md:hidden text-slate-300 hover:text-white p-2" aria-label="Open menu">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <button id="menu-close" class="absolute top-5 right-5 text-slate-400 hover:text-white" aria-label="Close menu">
+      <i class="fa-solid fa-xmark text-2xl"></i>
+    </button>
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <button class="btn-primary mt-2" data-quote><i class="fa-solid fa-eye"></i> Free Mockup</button>
+    <a href="https://wa.me/447514499777" class="btn-whatsapp" target="_blank" rel="noopener">
+      <i class="fa-brands fa-whatsapp text-lg"></i> WhatsApp Now
+    </a>
+  </div>
+
+  <!-- HERO -->
+  <section class="page-offset-sm py-16 relative grid-bg">
+    <div class="relative z-10 max-w-4xl mx-auto px-5 sm:px-8 text-center">
+      <div class="reveal mb-4">
+        <span class="section-label"><i class="fa-solid fa-tag text-xs"></i> Transparent Pricing</span>
+      </div>
+      <h1 class="reveal reveal-d1 display-font text-4xl sm:text-5xl font-black text-white mt-4 mb-5 leading-tight">
+        Simple, Honest Pricing<br><span class="gradient-text">No Hidden Costs</span>
+      </h1>
+      <p class="reveal reveal-d2 text-slate-400 text-lg max-w-xl mx-auto mb-4">
+        The price you see is the price you pay. Every package includes everything you need to get online and start winning customers.
+      </p>
+      <p class="reveal reveal-d3 text-slate-500 text-sm">Not sure which package? <button class="text-sky-400 hover:text-sky-300 underline" data-quote>Message us and we'll advise you</button>, no obligation.</p>
+    </div>
+  </section>
+
+  <hr class="glow-divider">
+
+  <!-- PRICING CARDS -->
+  <section class="py-20" id="packages">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+
+        <!-- STARTER -->
+        <div class="pricing-card reveal reveal-d1 flex flex-col">
+          <div class="mb-6">
+            <div class="display-font text-sm font-bold text-sky-400 tracking-widest uppercase mb-3">Starter</div>
+            <div class="flex items-end gap-1 mb-1">
+              <span class="price-tag">£199</span>
+              <span class="text-slate-400 text-sm mb-2">one-off</span>
+            </div>
+            <p class="text-slate-400 text-sm">Perfect for tradespeople who need a professional online presence fast.</p>
+          </div>
+          <ul class="space-y-3 mb-8 flex-1">
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Custom designed homepage</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Mobile responsive design</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Contact form &amp; WhatsApp button</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> SSL certificate included</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Basic SEO setup</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Cloudflare hosting setup</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Delivered in 5–7 days</li>
+            <li class="price-include text-slate-500"><svg class="w-4 h-4 shrink-0 opacity-30" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"/></svg> <span class="opacity-50">Multiple pages</span></li>
+            <li class="price-include text-slate-500"><svg class="w-4 h-4 shrink-0 opacity-30" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"/></svg> <span class="opacity-50">Monthly maintenance</span></li>
+          </ul>
+          <button class="btn-secondary w-full justify-center" data-quote>Get Started</button>
+        </div>
+
+        <!-- BUSINESS (FEATURED) -->
+        <div class="pricing-card feat reveal reveal-d2 flex flex-col">
+          <div class="badge-feat">Most Popular</div>
+          <div class="mb-6">
+            <div class="display-font text-sm font-bold text-sky-400 tracking-widest uppercase mb-3">Business</div>
+            <div class="flex items-end gap-1 mb-1">
+              <span class="price-tag">£349</span>
+              <span class="text-slate-400 text-sm mb-2">one-off</span>
+            </div>
+            <p class="text-slate-400 text-sm">For established businesses that want a proper multi-page website.</p>
+          </div>
+          <ul class="space-y-3 mb-8 flex-1">
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Up to 5 custom pages</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Mobile responsive design</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Contact form &amp; WhatsApp button</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> SSL certificate included</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Full SEO setup &amp; meta tags</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Cloudflare hosting setup</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Google Business Profile setup</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Delivered in 5–7 days</li>
+            <li class="price-include text-slate-500"><svg class="w-4 h-4 shrink-0 opacity-30" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"/></svg> <span class="opacity-50">Monthly maintenance</span></li>
+          </ul>
+          <button class="btn-primary w-full justify-center" data-quote>Get Started</button>
+        </div>
+
+        <!-- PREMIUM -->
+        <div class="pricing-card reveal reveal-d3 flex flex-col">
+          <div class="mb-6">
+            <div class="display-font text-sm font-bold text-sky-400 tracking-widest uppercase mb-3">Premium</div>
+            <div class="flex items-end gap-1 mb-1">
+              <span class="price-tag">£599</span>
+              <span class="text-slate-400 text-sm mb-2">one-off</span>
+            </div>
+            <p class="text-slate-400 text-sm">A complete online presence for businesses that want to dominate locally.</p>
+          </div>
+          <ul class="space-y-3 mb-8 flex-1">
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Up to 10 custom pages</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Mobile responsive design</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Contact form &amp; WhatsApp button</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> SSL certificate included</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Advanced SEO &amp; schema markup</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Cloudflare hosting setup</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Google Business Profile setup</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> 3 months free maintenance</li>
+            <li class="price-include"><svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg> Priority delivery (3–5 days)</li>
+          </ul>
+          <button class="btn-secondary w-full justify-center" data-quote>Get Started</button>
+        </div>
+
+      </div>
+
+      <!-- Additional note -->
+      <div class="mt-10 text-center reveal">
+        <p class="text-slate-400 text-sm">All prices include VAT. Domain name registration is extra (typically £10–15/year). Hosting via Cloudflare Pages is free.</p>
+        <p class="text-slate-500 text-xs mt-2">Need something custom? <button class="text-sky-400 hover:text-sky-300 underline" data-quote>Message us for a bespoke quote.</button></p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="glow-divider">
+
+  <!-- WHAT'S INCLUDED -->
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-5 sm:px-8">
+      <div class="text-center mb-12 reveal">
+        <span class="section-label"><i class="fa-solid fa-circle-check text-xs"></i> Every Package</span>
+        <h2 class="display-font text-3xl font-bold text-white mt-4 mb-3">What's always included</h2>
+        <p class="text-slate-400">Every website we build, at any price point, comes with these as standard.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="flex items-start gap-4 bg-[#0d1117] border border-sky-900/25 rounded-xl p-5 reveal reveal-d1">
+          <i class="fa-solid fa-mobile-screen text-sky-400 text-lg mt-0.5"></i>
+          <div>
+            <h3 class="display-font font-bold text-white text-sm mb-1">Fully Mobile Responsive</h3>
+            <p class="text-slate-400 text-xs leading-relaxed">Looks perfect on phones, tablets and desktops. Most of your customers are on mobile. We prioritise it.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 bg-[#0d1117] border border-sky-900/25 rounded-xl p-5 reveal reveal-d2">
+          <i class="fa-solid fa-lock text-sky-400 text-lg mt-0.5"></i>
+          <div>
+            <h3 class="display-font font-bold text-white text-sm mb-1">SSL Security Certificate</h3>
+            <p class="text-slate-400 text-xs leading-relaxed">Every site gets HTTPS by default. Google ranks secure sites higher and customers trust them more.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 bg-[#0d1117] border border-sky-900/25 rounded-xl p-5 reveal reveal-d3">
+          <i class="fa-solid fa-gauge-high text-sky-400 text-lg mt-0.5"></i>
+          <div>
+            <h3 class="display-font font-bold text-white text-sm mb-1">Fast Loading Speed</h3>
+            <p class="text-slate-400 text-xs leading-relaxed">Clean, optimised code and Cloudflare's global CDN means your site loads fast, even on slow mobile connections.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 bg-[#0d1117] border border-sky-900/25 rounded-xl p-5 reveal reveal-d4">
+          <i class="fa-brands fa-whatsapp text-green-400 text-lg mt-0.5"></i>
+          <div>
+            <h3 class="display-font font-bold text-white text-sm mb-1">WhatsApp Support Throughout</h3>
+            <p class="text-slate-400 text-xs leading-relaxed">Message Will directly on WhatsApp at any point. No email queues, no waiting. Just direct communication.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 bg-[#0d1117] border border-sky-900/25 rounded-xl p-5 reveal reveal-d1">
+          <i class="fa-solid fa-eye text-sky-400 text-lg mt-0.5"></i>
+          <div>
+            <h3 class="display-font font-bold text-white text-sm mb-1">Free Mockup Before You Pay</h3>
+            <p class="text-slate-400 text-xs leading-relaxed">See a custom homepage design concept before committing to anything. If you don't love it, you walk away for free.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-4 bg-[#0d1117] border border-sky-900/25 rounded-xl p-5 reveal reveal-d2">
+          <i class="fa-brands fa-cloudflare text-sky-400 text-lg mt-0.5"></i>
+          <div>
+            <h3 class="display-font font-bold text-white text-sm mb-1">Cloudflare Hosting Setup</h3>
+            <p class="text-slate-400 text-xs leading-relaxed">We set up fast, secure, zero-downtime hosting on Cloudflare Pages. No ongoing hosting fees from us.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="glow-divider">
+
+  <!-- PRICING FAQ -->
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-5 sm:px-8">
+      <div class="text-center mb-12 reveal">
+        <span class="section-label"><i class="fa-solid fa-circle-question text-xs"></i> Pricing Questions</span>
+        <h2 class="display-font text-3xl font-bold text-white mt-4 mb-3">Common questions about pricing</h2>
+      </div>
+      <div class="space-y-3">
+        <div class="faq-item reveal reveal-d1">
+          <button class="faq-q">Are there any monthly fees?
+            <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq-a"><p>No ongoing fees from us. You'll pay a one-off fee for your website build. You'll need to pay for your domain name (around £10–15/year) and potentially an email service if you want a professional email address. Hosting via Cloudflare Pages is completely free.</p></div>
+        </div>
+        <div class="faq-item reveal reveal-d2">
+          <button class="faq-q">What if I need more pages than the package includes?
+            <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq-a"><p>Additional pages can be added for a small fee, typically £30-50 per page depending on complexity. We'll always discuss this with you upfront before quoting. There are no surprises.</p></div>
+        </div>
+        <div class="faq-item reveal reveal-d3">
+          <button class="faq-q">Do I have to pay upfront?
+            <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq-a"><p>We typically ask for a 50% deposit to begin work, with the remaining 50% due before the site goes live. This protects both parties and keeps things fair. Payment is accepted via bank transfer or PayPal.</p></div>
+        </div>
+        <div class="faq-item reveal reveal-d4">
+          <button class="faq-q">Can I see a design before I pay anything?
+            <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq-a"><p>Yes. That's exactly what the free mockup is for. Send us your business details and we'll design a homepage concept for free, within 24 hours. If you like it, we discuss the build. If not, you owe nothing. No pressure.</p></div>
+        </div>
+        <div class="faq-item reveal reveal-d5">
+          <button class="faq-q">Is there a contract?
+            <svg class="faq-icon w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg>
+          </button>
+          <div class="faq-a"><p>No long-term contracts. We work on a simple project basis with a clear quote and a brief written agreement covering the scope of work. No tie-ins, no minimums, no exit fees.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="glow-divider">
+
+  <!-- FOOTER CTA -->
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-5 sm:px-8 text-center reveal">
+      <h2 class="display-font text-3xl sm:text-4xl font-bold text-white mb-4">Ready to get started?</h2>
+      <p class="text-slate-300 max-w-lg mx-auto mb-8">Get a free mockup first. See your new website before you commit to anything. No payment needed, no obligation.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="https://wa.me/447514499777?text=Hi%20Will!%20I%27d%20love%20a%20free%20website%20mockup%20for%20my%20business." class="btn-whatsapp text-base" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp text-xl"></i> Request Free Mockup
+        </a>
+        <button class="btn-secondary text-base" data-quote>Get a Quote</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#050810] border-t border-sky-900/20 py-10">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <a href="index.html" class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-xl bg-gradient-to-br from-sky-400 to-blue-600 flex items-center justify-center">
+            <span class="text-white font-black text-sm display-font">W</span>
+          </div>
+          <span class="display-font font-bold text-white">Will Web <span class="text-sky-400">Design</span></span>
+        </a>
+        <div class="flex flex-wrap gap-5 text-sm">
+          <a href="index.html"     class="text-slate-400 hover:text-sky-400 transition-colors">Home</a>
+          <a href="portfolio.html" class="text-slate-400 hover:text-sky-400 transition-colors">Portfolio</a>
+          <a href="pricing.html"   class="text-slate-400 hover:text-sky-400 transition-colors">Pricing</a>
+          <a href="about.html"     class="text-slate-400 hover:text-sky-400 transition-colors">About</a>
+          <a href="contact.html"   class="text-slate-400 hover:text-sky-400 transition-colors">Contact</a>
+        </div>
+        <p class="text-slate-500 text-xs">© 2025 Will Web Design</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/447514499777" class="float-wa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp text-2xl"></i>
+  </a>
+  <button class="float-quote" data-quote aria-label="Get a quote">
+    <i class="fa-solid fa-file-invoice mr-2"></i> Get Quote
+  </button>
+
+  <!-- QUOTE MODAL -->
+  <div class="modal-overlay" id="quote-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h3 id="modal-title" class="display-font text-xl font-bold text-white">Get a Free Quote</h3>
+          <p class="text-slate-400 text-sm">We'll get back to you within a few hours.</p>
+        </div>
+        <button data-close-modal class="text-slate-500 hover:text-white p-1 transition-colors" aria-label="Close">
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
+      </div>
+      <form id="quote-form">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+          <div class="form-group">
+            <label class="form-label" for="qf-name">Your Name *</label>
+            <input type="text" id="qf-name" name="name" class="form-input" placeholder="John Smith" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="qf-business">Business Name *</label>
+            <input type="text" id="qf-business" name="business" class="form-input" placeholder="Smith Plumbing Ltd" required autocomplete="organization">
+          </div>
+        </div>
+        <div class="form-group mb-4">
+          <label class="form-label" for="qf-email">Email Address *</label>
+          <input type="email" id="qf-email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+        </div>
+        <div class="form-group mb-4">
+          <label class="form-label" for="qf-phone">Phone Number</label>
+          <input type="tel" id="qf-phone" name="phone" class="form-input" placeholder="07xxx xxxxxx" autocomplete="tel">
+        </div>
+        <div class="form-group mb-4">
+          <label class="form-label" for="qf-service">Which service are you interested in?</label>
+          <select id="qf-service" name="service" class="form-input">
+            <option value="" disabled selected>Select a service…</option>
+            <option>Starter Website (£199)</option>
+            <option>Business Website (£349)</option>
+            <option>Premium Website (£599)</option>
+            <option>Website Redesign</option>
+            <option>Not sure yet - advise me</option>
+          </select>
+        </div>
+        <div class="form-group mb-6">
+          <label class="form-label" for="qf-message">Tell us about your business</label>
+          <textarea id="qf-message" name="message" class="form-input" placeholder="What do you do? Any specific requirements?" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn-primary w-full justify-center text-base py-4">
+          <i class="fa-solid fa-paper-plane"></i> Send My Quote Request
+        </button>
+        <p class="text-slate-400 text-xs text-center mt-3">Or message us directly: <a href="https://wa.me/447514499777" class="text-green-400 hover:text-green-300" target="_blank" rel="noopener">WhatsApp us now →</a></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
